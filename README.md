@@ -24,7 +24,7 @@ The flow of the ETL is:
 
 ## Instructions
 1. Clone the repository locally.
-2. Open a terminal in the root directory of the repository. Here you will want to run the `build.sh` script to build the temporal server locally to allow you to run the ETL. This requires a git enabled terminal to clone the repo.
+2. Open a terminal in the root directory of the repository. Here you will want to run the `build.sh` script to build the temporal server locally to allow you to run the ETL. 
 3. Open another terminal, also in the root directory and run `python worker.py`. This will spin up the workers to wait for work in the queue.
 4. Finally, trigger the workflow by running `python starter.py`. This can be run multiple times to continue to add more purchases and customers to the `.csv` files and iterate on the purchase date and ids. 
 
