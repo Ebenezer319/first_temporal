@@ -15,7 +15,7 @@ async def pull_csv(
 ) -> Union[
     List[Purchase], 
     List[Customer],
-    List[Purchase], 
+    List[RunPlaceholder], 
     List[PurchaseDispute], 
     List[Any]
 ]:
